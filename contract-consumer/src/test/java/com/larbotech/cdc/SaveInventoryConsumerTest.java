@@ -49,10 +49,6 @@ public class SaveInventoryConsumerTest {
                 .headers(headers)
                 .status(200).body(bodyResponse).toPact();
     }
-
-   
-
-	
 	
 	@Test
 	@PactVerification
